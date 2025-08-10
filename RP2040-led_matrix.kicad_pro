@@ -577,6 +577,18 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR",
+          "name": "MFR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB",
+          "name": "JLCPCB",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -634,6 +646,18 @@
     [
       "0888f11a-653a-47d6-beb1-dc60ae471956",
       "Led Matrix"
+    ],
+    [
+      "ffded15e-bc5d-4a0c-8d4c-2069156168a7",
+      "User_interface"
+    ],
+    [
+      "ff91ef5d-656b-4c98-8b96-05639fe38f77",
+      "PowerSupply"
+    ],
+    [
+      "08f0e99c-16fb-460c-b685-fcc76cd51ec7",
+      "MCU"
     ]
   ],
   "text_variables": {}
