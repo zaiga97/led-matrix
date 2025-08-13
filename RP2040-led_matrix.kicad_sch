@@ -5558,7 +5558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04105a23-a0dc-4c45-9f85-afc5530d7022")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR012"
 			(at 93.98 194.31 0)
 			(effects
 				(font
@@ -5608,7 +5608,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR05")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5624,7 +5624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06fd821b-d2af-4aa9-a33e-bd85b3d40a98")
-		(property "Reference" "C10"
+		(property "Reference" "C15"
 			(at 179.07 36.8299 0)
 			(effects
 				(font
@@ -5678,7 +5678,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "C10")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -5693,7 +5693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09e4ad40-adda-43b2-a154-832b20120508")
-		(property "Reference" "C6"
+		(property "Reference" "C1"
 			(at 37.9984 151.511 0)
 			(effects
 				(font
@@ -5746,7 +5746,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "C6")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5762,7 +5762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f8e5768-3f0a-4ed0-997f-1f18fc8fccda")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR021"
 			(at 214.63 41.91 0)
 			(effects
 				(font
@@ -5812,7 +5812,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR016")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5827,7 +5827,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f90f86f-839c-436a-accc-6447a1ff6647")
-		(property "Reference" "C18"
+		(property "Reference" "C12"
 			(at 104.14 81.788 90)
 			(effects
 				(font
@@ -5879,7 +5879,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "C18")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -5895,7 +5895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "186c9b0e-6ea7-4782-a7a3-0644ad68e452")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR020"
 			(at 181.61 34.29 0)
 			(effects
 				(font
@@ -5945,7 +5945,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR025")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5960,7 +5960,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "187fff25-b0b7-4852-8044-d1473e4d7cee")
-		(property "Reference" "C15"
+		(property "Reference" "C10"
 			(at 104.14 61.468 90)
 			(effects
 				(font
@@ -6012,7 +6012,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "C15")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6027,7 +6027,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "207e1c6a-3f92-43f0-9158-823bd72dd7be")
-		(property "Reference" "C11"
+		(property "Reference" "C6"
 			(at 104.14 20.828 90)
 			(effects
 				(font
@@ -6079,7 +6079,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "C11")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6095,7 +6095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23a3d9b1-3c43-4f0b-ae4b-30536ecd4fc5")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 266.7 45.7199 0)
 			(effects
 				(font
@@ -6167,7 +6167,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6183,7 +6183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24e41713-9daa-482f-805b-9fef08379fe4")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 53.34 29.21 0)
 			(effects
 				(font
@@ -6233,7 +6233,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6248,7 +6248,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2880067f-b310-4571-bcd0-05406f64e3ab")
-		(property "Reference" "R7"
+		(property "Reference" "R2"
 			(at 53.34 34.29 90)
 			(effects
 				(font
@@ -6300,7 +6300,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "R7")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6316,7 +6316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28f0c29a-fd2e-41e7-a4aa-8f44309cac74")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR019"
 			(at 175.26 49.53 0)
 			(effects
 				(font
@@ -6366,7 +6366,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR022")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6381,7 +6381,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31136640-89bc-4d10-be14-953615b622d5")
-		(property "Reference" "Y2"
+		(property "Reference" "Y1"
 			(at 55.88 151.13 90)
 			(effects
 				(font
@@ -6440,7 +6440,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "Y2")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -6455,7 +6455,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a06d11e-9114-4700-9929-36b56d2f9357")
-		(property "Reference" "C16"
+		(property "Reference" "C11"
 			(at 104.14 71.628 90)
 			(effects
 				(font
@@ -6507,7 +6507,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "C16")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6523,7 +6523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d771652-17e4-43ef-808d-31b27ca3a528")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR010"
 			(at 76.2 82.55 0)
 			(effects
 				(font
@@ -6574,7 +6574,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR06")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6589,7 +6589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a836a3d-8f82-43ff-83f1-51517eabb725")
-		(property "Reference" "C14"
+		(property "Reference" "C9"
 			(at 104.14 51.308 90)
 			(effects
 				(font
@@ -6641,7 +6641,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "C14")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6657,7 +6657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d1fec69-bc6f-4c8b-bb35-828546e823f8")
-		(property "Reference" "R1"
+		(property "Reference" "R4"
 			(at 236.22 29.21 90)
 			(effects
 				(font
@@ -6709,7 +6709,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "R1")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6724,7 +6724,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4de12d70-e91b-49e6-a281-64389142ba16")
-		(property "Reference" "C12"
+		(property "Reference" "C7"
 			(at 104.14 30.988 90)
 			(effects
 				(font
@@ -6776,7 +6776,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "C12")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6791,7 +6791,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e951feb-ff24-4163-88d8-2b4cf7f6e726")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR02"
 			(at 30.48 168.91 0)
 			(effects
 				(font
@@ -6840,7 +6840,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR013")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6922,7 +6922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55caa551-3165-4781-a83d-007bc625eb7a")
-		(property "Reference" "R6"
+		(property "Reference" "R1"
 			(at 53.594 29.21 90)
 			(effects
 				(font
@@ -6974,7 +6974,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "R6")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6990,7 +6990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ebb8b0b-dffd-47c9-b5b2-d7c934f2c0dc")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR011"
 			(at 91.44 76.2 0)
 			(effects
 				(font
@@ -7040,7 +7040,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR08")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7055,7 +7055,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81a2ffb0-672a-4b6d-b1a7-700a6def2807")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR023"
 			(at 255.27 66.04 0)
 			(effects
 				(font
@@ -7105,7 +7105,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR014")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7121,7 +7121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8530f33b-51c2-48b2-8ba9-82324523a6b5")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR05"
 			(at 63.5 29.21 0)
 			(effects
 				(font
@@ -7172,7 +7172,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR019")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7188,7 +7188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85c5c49d-8062-434c-9f75-fd98b1f07982")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR06"
 			(at 63.5 34.29 0)
 			(effects
 				(font
@@ -7239,7 +7239,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR018")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7255,7 +7255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "954ecfe2-cf59-4089-8fe0-578516f6596f")
-		(property "Reference" "C8"
+		(property "Reference" "C16"
 			(at 261.62 22.86 90)
 			(effects
 				(font
@@ -7307,7 +7307,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "C8")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7322,7 +7322,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98f5e97b-58ae-4c51-9d85-2f10655bad93")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 81.28 87.63 90)
 			(effects
 				(font
@@ -7330,7 +7330,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10u"
 			(at 81.28 90.17 90)
 			(effects
 				(font
@@ -7374,7 +7374,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -7389,7 +7389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a2f04ec-b6d4-41a7-aaa7-f0025c610c3b")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR03"
 			(at 44.45 160.02 0)
 			(effects
 				(font
@@ -7438,7 +7438,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR026")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7453,7 +7453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ad57b81-8bcd-4883-8113-a8dc04c2f708")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 223.52 27.94 0)
 			(effects
 				(font
@@ -7505,7 +7505,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -7521,7 +7521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b19bf05-bd67-428b-902d-46ffea67652a")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR016"
 			(at 142.24 34.29 0)
 			(effects
 				(font
@@ -7571,7 +7571,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR024")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7587,7 +7587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cdcf367-756c-41aa-965c-b4cc2e1be15f")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 45.72 23.495 0)
 			(effects
 				(font
@@ -7637,7 +7637,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -7652,7 +7652,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d08fff1-3c67-4aa8-973b-f18af2a2665c")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 64.77 153.4922 90)
 			(effects
 				(font
@@ -7703,7 +7703,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7719,7 +7719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fdce1fa-6ce5-4acf-b964-caa93e734055")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 246.38 24.13 90)
 			(effects
 				(font
@@ -7727,7 +7727,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 246.38 26.67 90)
 			(effects
 				(font
@@ -7771,7 +7771,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7787,7 +7787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a17cd8be-db1c-419b-ae7c-4bdc87509416")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR017"
 			(at 148.59 49.53 0)
 			(effects
 				(font
@@ -7837,7 +7837,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR023")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7852,7 +7852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a85f5209-2d93-4ec4-aa66-cc729d88e731")
-		(property "Reference" "C3"
+		(property "Reference" "C13"
 			(at 110.49 87.884 90)
 			(effects
 				(font
@@ -7860,7 +7860,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10u"
 			(at 110.49 90.424 90)
 			(effects
 				(font
@@ -7904,7 +7904,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "C3")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7920,7 +7920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab9350ee-fb39-45c9-92ab-be2083966500")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR024"
 			(at 269.24 39.37 0)
 			(effects
 				(font
@@ -7970,7 +7970,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR015")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7986,7 +7986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0220d67-0c48-41b2-a7b1-cb5d0f1ae1bf")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR015"
 			(at 121.92 93.98 0)
 			(effects
 				(font
@@ -8037,7 +8037,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR09")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8052,7 +8052,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c000382c-2e5e-467f-b9f0-08fc148531fb")
-		(property "Reference" "C17"
+		(property "Reference" "C4"
 			(at 87.63 71.628 90)
 			(effects
 				(font
@@ -8104,7 +8104,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "C17")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8120,7 +8120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c43bda00-a4cb-4467-9efb-16f15495b5e5")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR08"
 			(at 64.77 102.87 0)
 			(effects
 				(font
@@ -8171,7 +8171,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR011")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8187,7 +8187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d306939b-f39c-4e59-bad7-3e543a1d24c7")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR022"
 			(at 255.27 29.21 0)
 			(effects
 				(font
@@ -8237,7 +8237,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR03")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8253,7 +8253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d74a5e8b-3ac3-4caf-9cca-39c952840705")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR013"
 			(at 100.33 27.94 0)
 			(effects
 				(font
@@ -8303,7 +8303,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR07")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8319,7 +8319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daf482c7-f67c-49ab-9e09-b4fe48bb112a")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 69.85 93.98 0)
 			(effects
 				(font
@@ -8370,7 +8370,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8386,7 +8386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df3828f8-2b95-46a8-9efd-1ae184f5bbd2")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 29.21 17.78 0)
 			(effects
 				(font
@@ -8507,7 +8507,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8522,7 +8522,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4ab95c9-b82f-4fa6-b0d3-6b43db79ed7a")
-		(property "Reference" "C13"
+		(property "Reference" "C8"
 			(at 104.14 41.148 90)
 			(effects
 				(font
@@ -8574,7 +8574,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "C13")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8590,7 +8590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4b11fd4-8aaa-4246-a0ce-acc43b227976")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR018"
 			(at 162.56 49.53 0)
 			(effects
 				(font
@@ -8640,7 +8640,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR021")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8656,7 +8656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e691bd93-6466-45e2-990a-2f9f300e53fd")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 96.1233 185.42 0)
 			(effects
 				(font
@@ -8875,7 +8875,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -8891,7 +8891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb21a262-da24-4229-9bfa-4a76eb234b56")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 29.21 93.345 0)
 			(effects
 				(font
@@ -8941,7 +8941,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -8957,7 +8957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed02c569-9115-4017-bb66-f0497b412b86")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR014"
 			(at 114.3 57.15 0)
 			(effects
 				(font
@@ -9008,7 +9008,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR01")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9024,7 +9024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edb121b5-d81d-4214-a922-ae4e36214734")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR01"
 			(at 21.59 100.33 0)
 			(effects
 				(font
@@ -9074,7 +9074,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR017")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -9089,7 +9089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f671eca3-dbac-47ad-a528-c569b99fe4c9")
-		(property "Reference" "C7"
+		(property "Reference" "C2"
 			(at 37.9984 161.671 0)
 			(effects
 				(font
@@ -9142,7 +9142,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "C7")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9158,7 +9158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8387815-747b-488e-8719-be41bb4d73c3")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 162.56 27.94 0)
 			(effects
 				(font
@@ -9213,7 +9213,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -9228,7 +9228,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbbd8029-6678-4ab7-9769-c43017907d08")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR07"
 			(at 57.15 160.02 0)
 			(effects
 				(font
@@ -9277,7 +9277,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "#PWR027")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -9292,7 +9292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd3d394a-b311-4e88-a7a8-a8c803a218d8")
-		(property "Reference" "C9"
+		(property "Reference" "C14"
 			(at 151.13 36.83 0)
 			(effects
 				(font
@@ -9346,7 +9346,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60"
-					(reference "C9")
+					(reference "C14")
 					(unit 1)
 				)
 			)

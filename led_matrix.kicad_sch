@@ -946,7 +946,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -967,7 +967,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -993,7 +993,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1011,7 +1011,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1049,7 +1049,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2176,6 +2176,12 @@
 		(uuid "c6947834-4e53-40c5-bfea-9aa6aedec45d")
 	)
 	(junction
+		(at 17.78 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7e5fbbb-648c-4664-9c74-ae5fb1ae21bf")
+	)
+	(junction
 		(at 132.08 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2204,12 +2210,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccddf142-d45f-466f-bb69-c60a022dc05f")
-	)
-	(junction
-		(at 17.78 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd588c4a-66a3-44a7-8138-0a122fb9032a")
 	)
 	(junction
 		(at 48.26 138.43)
@@ -2555,7 +2555,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 35.56) (xy 21.59 38.1)
+			(xy 21.59 29.21) (xy 21.59 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2965,7 +2965,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 38.1) (xy 25.4 38.1)
+			(xy 21.59 31.75) (xy 25.4 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3225,7 +3225,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 35.56) (xy 135.89 38.1)
+			(xy 135.89 29.21) (xy 135.89 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3345,7 +3345,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 35.56) (xy 123.19 38.1)
+			(xy 123.19 29.21) (xy 123.19 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3442,6 +3442,16 @@
 			(type default)
 		)
 		(uuid "4c6de973-273a-4c1d-a8e7-bfc6450cb08d")
+	)
+	(wire
+		(pts
+			(xy 17.78 41.91) (xy 17.78 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e664759-8e72-4160-a801-a5280314f217")
 	)
 	(wire
 		(pts
@@ -3585,7 +3595,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 35.56) (xy 85.09 38.1)
+			(xy 85.09 29.21) (xy 85.09 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4085,7 +4095,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 35.56) (xy 59.69 38.1)
+			(xy 59.69 29.21) (xy 59.69 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4365,7 +4375,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 35.56) (xy 34.29 38.1)
+			(xy 34.29 29.21) (xy 34.29 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4465,7 +4475,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 35.56) (xy 110.49 38.1)
+			(xy 110.49 29.21) (xy 110.49 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4685,23 +4695,13 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 38.1) (xy 25.4 43.18)
+			(xy 25.4 31.75) (xy 25.4 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b2af91a6-1def-40b5-9500-24ecc1428f64")
-	)
-	(wire
-		(pts
-			(xy 17.78 41.91) (xy 17.78 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3b597e5-df8c-4ab0-9212-25d2ca1731ec")
 	)
 	(wire
 		(pts
@@ -4815,7 +4815,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 35.56) (xy 97.79 38.1)
+			(xy 97.79 29.21) (xy 97.79 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4875,7 +4875,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 35.56) (xy 46.99 38.1)
+			(xy 46.99 29.21) (xy 46.99 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4945,7 +4945,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 35.56) (xy 72.39 38.1)
+			(xy 72.39 29.21) (xy 72.39 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5795,7 +5795,7 @@
 	)
 	(global_label "C6"
 		(shape input)
-		(at 85.09 27.94 90)
+		(at 85.09 21.59 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5805,7 +5805,7 @@
 		)
 		(uuid "013c5aed-35ea-4b3f-8d5d-e6411eea7e39")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 22.4753 90)
+			(at 85.09 16.1253 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5883,7 +5883,7 @@
 	)
 	(global_label "C5"
 		(shape input)
-		(at 72.39 27.94 90)
+		(at 72.39 21.59 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5893,7 +5893,7 @@
 		)
 		(uuid "294c1f8a-0af3-4dc0-be86-029822e7d577")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.39 22.4753 90)
+			(at 72.39 16.1253 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5927,7 +5927,7 @@
 	)
 	(global_label "C2"
 		(shape input)
-		(at 34.29 27.94 90)
+		(at 34.29 21.59 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5937,7 +5937,7 @@
 		)
 		(uuid "508755d0-5e4e-4844-9c8c-a608fbd7545b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.29 22.4753 90)
+			(at 34.29 16.1253 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5949,7 +5949,7 @@
 	)
 	(global_label "C9"
 		(shape input)
-		(at 123.19 27.94 90)
+		(at 123.19 21.59 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5959,7 +5959,7 @@
 		)
 		(uuid "66e279a6-1cf1-419d-aefd-2d3b58f20153")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.19 22.4753 90)
+			(at 123.19 16.1253 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5971,7 +5971,7 @@
 	)
 	(global_label "C3"
 		(shape input)
-		(at 46.99 27.94 90)
+		(at 46.99 21.59 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5981,7 +5981,7 @@
 		)
 		(uuid "72141fb6-67e9-4ebf-ab26-f4c255b1e948")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.99 22.4753 90)
+			(at 46.99 16.1253 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6015,7 +6015,7 @@
 	)
 	(global_label "C8"
 		(shape input)
-		(at 110.49 27.94 90)
+		(at 110.49 21.59 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6025,7 +6025,7 @@
 		)
 		(uuid "8eb49439-d1ed-4efe-8323-5282f16f4b23")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.49 22.4753 90)
+			(at 110.49 16.1253 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6059,7 +6059,7 @@
 	)
 	(global_label "C10"
 		(shape input)
-		(at 135.89 27.94 90)
+		(at 135.89 21.59 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6069,7 +6069,7 @@
 		)
 		(uuid "b9c5c3a5-8574-4528-82dc-3fe3f6b8584c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 21.2658 90)
+			(at 135.89 14.9158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6081,7 +6081,7 @@
 	)
 	(global_label "C1"
 		(shape input)
-		(at 21.59 27.94 90)
+		(at 21.59 21.59 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6091,7 +6091,7 @@
 		)
 		(uuid "bf319223-40f1-441a-a138-a5026d061bd8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.59 22.4753 90)
+			(at 21.59 16.1253 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,7 +6103,7 @@
 	)
 	(global_label "C7"
 		(shape input)
-		(at 97.79 27.94 90)
+		(at 97.79 21.59 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6113,7 +6113,7 @@
 		)
 		(uuid "cf044cce-4a7b-4a0a-ad0a-5f0ce30e5f58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.79 22.4753 90)
+			(at 97.79 16.1253 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6147,7 +6147,7 @@
 	)
 	(global_label "C4"
 		(shape input)
-		(at 59.69 27.94 90)
+		(at 59.69 21.59 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6157,7 +6157,7 @@
 		)
 		(uuid "d9b21f91-533c-4456-b61b-e5929cae40ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.69 22.4753 90)
+			(at 59.69 16.1253 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6235,15 +6235,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 97.79 31.75 0)
+		(at 97.79 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0240029d-f511-465e-8175-255415a171df")
-		(property "Reference" "R20"
-			(at 97.79 32.004 90)
+		(property "Reference" "R25"
+			(at 97.79 25.654 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6251,7 +6251,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 100.076 31.75 90)
+			(at 100.076 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6259,7 +6259,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 96.012 31.75 90)
+			(at 96.012 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6268,7 +6268,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 31.75 0)
+			(at 97.79 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6277,7 +6277,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 97.79 31.75 0)
+			(at 97.79 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6294,7 +6294,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R20")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -6692,6 +6692,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 93.98 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a1d2489-8caa-465f-9ab6-bb0f5574495b")
+		(property "Reference" "R24"
+			(at 93.98 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 96.266 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 92.202 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 93.98 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0db15518-a3ef-4c05-95de-a5d7bb29f7d5")
+		)
+		(pin "1"
+			(uuid "e22882d8-5359-42cb-9910-2e46353f095c")
+		)
+		(instances
+			(project "RP2040-led_matrix"
+				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:BSS84")
 		(at 96.52 49.53 180)
 		(unit 1)
@@ -6850,7 +6917,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bf96206-aabd-42ad-8780-195f1df189c4")
-		(property "Reference" "R31"
+		(property "Reference" "R39"
 			(at 152.4 103.886 90)
 			(effects
 				(font
@@ -6902,7 +6969,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R31")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -7226,15 +7293,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 135.89 31.75 0)
+		(at 135.89 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1502eedc-c096-4409-ba95-06b48fe2777c")
-		(property "Reference" "R26"
-			(at 135.89 32.004 90)
+		(property "Reference" "R34"
+			(at 135.89 25.654 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,7 +7309,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 138.176 31.75 90)
+			(at 138.176 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7250,7 +7317,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 134.112 31.75 90)
+			(at 134.112 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7259,7 +7326,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 31.75 0)
+			(at 135.89 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7268,7 +7335,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 135.89 31.75 0)
+			(at 135.89 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7285,7 +7352,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R26")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -7365,6 +7432,73 @@
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
 					(reference "D89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 17.78 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16d145be-0679-49d8-bbdd-2b4388c3f737")
+		(property "Reference" "R6"
+			(at 17.78 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 20.066 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 16.002 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 17.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca689daa-b7c2-42aa-8883-942a541fa638")
+		)
+		(pin "1"
+			(uuid "2e8d8fe3-d387-4bfb-9458-15d6fd413ea2")
+		)
+		(instances
+			(project "RP2040-led_matrix"
+				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7932,7 +8066,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c065bf6-5780-434a-85cd-cd4bf582f7fd")
-		(property "Reference" "R43"
+		(property "Reference" "R45"
 			(at 152.4 180.086 90)
 			(effects
 				(font
@@ -7984,7 +8118,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R43")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -8157,7 +8291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f905419-7929-486b-994e-280a57777c1e")
-		(property "Reference" "R42"
+		(property "Reference" "R44"
 			(at 152.4 167.386 90)
 			(effects
 				(font
@@ -8209,7 +8343,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R42")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -8378,7 +8512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "248c18b1-f7cd-4123-837f-e4cc26032353")
-		(property "Reference" "R30"
+		(property "Reference" "R38"
 			(at 152.4 91.186 90)
 			(effects
 				(font
@@ -8430,7 +8564,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R30")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -8675,15 +8809,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 21.59 31.75 0)
+		(at 21.59 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "28ed9172-d353-49da-8d02-774cd66352ec")
-		(property "Reference" "R2"
-			(at 21.59 32.004 90)
+		(property "Reference" "R7"
+			(at 21.59 25.654 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8691,7 +8825,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 23.876 31.75 90)
+			(at 23.876 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8699,7 +8833,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 19.812 31.75 90)
+			(at 19.812 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8708,7 +8842,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 21.59 31.75 0)
+			(at 21.59 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8717,7 +8851,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 21.59 31.75 0)
+			(at 21.59 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8734,7 +8868,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R2")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8801,6 +8935,139 @@
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b4e1f76-5467-403d-aecb-9d914abb6ce0")
+		(property "Reference" "R27"
+			(at 106.68 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 108.966 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 104.902 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f3d844fe-2276-40c8-aab3-38862e763bb7")
+		)
+		(pin "1"
+			(uuid "71f8fa83-b91f-4263-b762-774bf4a676ab")
+		)
+		(instances
+			(project "RP2040-led_matrix"
+				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 119.38 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c1786f1-ffb6-472b-9161-5fd6429e067e")
+		(property "Reference" "#PWR033"
+			(at 119.38 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 119.38 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 119.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "548a5af8-baf4-4c85-9064-19fb390781b6")
+		)
+		(instances
+			(project "RP2040-led_matrix"
+				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8969,7 +9236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34760abb-a944-4375-bf0a-263c5dc43aba")
-		(property "Reference" "R21"
+		(property "Reference" "R26"
 			(at 97.536 43.18 90)
 			(effects
 				(font
@@ -9021,7 +9288,74 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R21")
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 55.88 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "352b992e-90e9-487f-ae71-59bffd99824f")
+		(property "Reference" "R15"
+			(at 55.88 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 58.166 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 54.102 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fe122e84-0873-4128-9696-698ab12143da")
+		)
+		(pin "1"
+			(uuid "c2293060-d35d-46a4-9768-c4da4d2688e2")
+		)
+		(instances
+			(project "RP2040-led_matrix"
+				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -9036,7 +9370,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "362c4583-490c-45a5-bb04-f7a278a6ee83")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 34.036 43.18 90)
 			(effects
 				(font
@@ -9088,7 +9422,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9498,7 +9832,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38e3e39d-2b18-446a-bc35-2b3e7f874e7c")
-		(property "Reference" "R29"
+		(property "Reference" "R47"
 			(at 163.576 78.74 90)
 			(effects
 				(font
@@ -9550,73 +9884,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 43.18 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a8c63be-b368-414c-b157-8951722642a8")
-		(property "Reference" "#PWR020"
-			(at 43.18 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 43.18 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 43.18 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7aa3922-f27a-477d-97e2-45f88d6066c1")
-		)
-		(instances
-			(project "RP2040-led_matrix"
-				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "#PWR020")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -9710,7 +9978,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c92faef-2a99-41e3-8379-9d72d40df595")
-		(property "Reference" "R19"
+		(property "Reference" "R23"
 			(at 84.836 43.18 90)
 			(effects
 				(font
@@ -9762,7 +10030,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R19")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -9842,6 +10110,73 @@
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
 					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.18 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d08f3f7-265a-4abe-81bd-db8e9cb78c1f")
+		(property "Reference" "R12"
+			(at 43.18 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 45.466 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 41.402 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 43.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c3ee1aea-9419-402a-aa17-c0e3ee3e8b6a")
+		)
+		(pin "1"
+			(uuid "7f1bdee9-a7db-4ec5-abf0-46108d7ca0c5")
+		)
+		(instances
+			(project "RP2040-led_matrix"
+				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10014,7 +10349,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ea33245-eccc-45c8-a384-e876b5219519")
-		(property "Reference" "R34"
+		(property "Reference" "R40"
 			(at 152.4 116.586 90)
 			(effects
 				(font
@@ -10066,7 +10401,74 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R34")
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 68.58 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ee1aea1-b9f0-4672-ab97-30e3fb4b0679")
+		(property "Reference" "R18"
+			(at 68.58 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 70.866 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 66.802 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 68.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "72696e32-f4ce-4414-8de5-392148c6e8a5")
+		)
+		(pin "1"
+			(uuid "7e0ee353-d8ae-4a83-820f-6eb39af55a49")
+		)
+		(instances
+			(project "RP2040-led_matrix"
+				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -10235,7 +10637,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4376ecfd-4e39-4808-b876-5900e4253374")
-		(property "Reference" "R25"
+		(property "Reference" "R32"
 			(at 122.936 43.18 90)
 			(effects
 				(font
@@ -10287,7 +10689,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R25")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -10997,17 +11399,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 93.98 41.91 0)
+		(lib_id "power:+3.3V")
+		(at 55.88 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "545a4e3d-6ca2-4e09-8585-d59256d6691c")
-		(property "Reference" "#PWR032"
-			(at 93.98 45.72 0)
+		(uuid "521c8f73-1373-4bc8-87f3-8d17c2e80425")
+		(property "Reference" "#PWR028"
+			(at 55.88 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11015,8 +11417,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 93.98 36.83 0)
+		(property "Value" "+3.3V"
+			(at 55.88 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11024,7 +11426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 41.91 0)
+			(at 55.88 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11033,7 +11435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 41.91 0)
+			(at 55.88 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11041,8 +11443,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 93.98 41.91 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 55.88 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11051,12 +11453,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b4742466-4e5c-4bf4-baf7-38a25fd07fb3")
+			(uuid "620dddb1-d820-49ae-81a9-3e9fc4901376")
 		)
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "#PWR032")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -11064,15 +11466,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 110.49 31.75 0)
+		(at 110.49 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "57dddca3-2357-43fd-8bd6-46a2eb099802")
-		(property "Reference" "R22"
-			(at 110.49 32.004 90)
+		(property "Reference" "R28"
+			(at 110.49 25.654 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11080,7 +11482,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 112.776 31.75 90)
+			(at 112.776 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11088,7 +11490,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 108.712 31.75 90)
+			(at 108.712 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11097,7 +11499,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 31.75 0)
+			(at 110.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11106,7 +11508,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 110.49 31.75 0)
+			(at 110.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11123,7 +11525,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R22")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -11203,138 +11605,6 @@
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
 					(reference "D27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 17.78 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58e76c4c-a409-428c-91a6-8bb93e7848c4")
-		(property "Reference" "#PWR04"
-			(at 17.78 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 17.78 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 17.78 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 17.78 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 17.78 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44c59c03-f6f6-4da6-b7b0-f4a87ef8d688")
-		)
-		(instances
-			(project "RP2040-led_matrix"
-				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 119.38 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59432293-b549-4288-b9d7-84606b4568d0")
-		(property "Reference" "#PWR034"
-			(at 119.38 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 119.38 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 119.38 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63f3a2e0-fffa-41f0-a0f7-66ead8149407")
-		)
-		(instances
-			(project "RP2040-led_matrix"
-				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -11508,7 +11778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66a574ee-b85f-435e-8d8b-87b35e14dc7e")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR035"
 			(at 160.02 62.23 0)
 			(effects
 				(font
@@ -11558,7 +11828,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "#PWR028")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -11648,7 +11918,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6acf8dc0-a96d-4310-b4ee-f9f19c8c84f2")
-		(property "Reference" "R12"
+		(property "Reference" "R46"
 			(at 163.576 66.04 90)
 			(effects
 				(font
@@ -11700,7 +11970,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R12")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -11794,7 +12064,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c90996c-e31e-4dfc-ad3a-0b14fe875538")
-		(property "Reference" "R35"
+		(property "Reference" "R41"
 			(at 152.4 129.286 90)
 			(effects
 				(font
@@ -11846,7 +12116,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R35")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -12301,6 +12571,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 43.18 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a81b3b1-33c9-45f1-837b-6fbfcd41a99e")
+		(property "Reference" "#PWR027"
+			(at 43.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 43.18 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 43.18 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63db6ad0-ff22-47a5-8c67-6842c95c23d4")
+		)
+		(instances
+			(project "RP2040-led_matrix"
+				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 163.83 91.44 270)
 		(unit 1)
@@ -12309,7 +12645,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a91273f-387a-4b62-846a-56618e68dbd9")
-		(property "Reference" "R32"
+		(property "Reference" "R48"
 			(at 163.576 91.44 90)
 			(effects
 				(font
@@ -12361,7 +12697,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R32")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -12522,6 +12858,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 132.08 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dcf4f96-a79b-4898-86c2-74fd5ee19fd4")
+		(property "Reference" "#PWR034"
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 132.08 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 132.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75a5712f-88c3-49fb-9e81-709cb642a226")
+		)
+		(instances
+			(project "RP2040-led_matrix"
+				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 152.4 66.04 180)
 		(unit 1)
@@ -12530,7 +12932,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "807ac466-8845-483d-8054-adaf84c6d653")
-		(property "Reference" "R13"
+		(property "Reference" "R36"
 			(at 152.4 65.786 90)
 			(effects
 				(font
@@ -12582,7 +12984,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R13")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -12822,82 +13224,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 30.48 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8631a5f7-59a0-4a35-8951-7453b399d03d")
-		(property "Reference" "#PWR012"
-			(at 30.48 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 30.48 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 30.48 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c00d45c7-3f07-4f45-b0b6-8611f1e52fa9")
-		)
-		(instances
-			(project "RP2040-led_matrix"
-				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 34.29 31.75 0)
+		(at 34.29 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "87819109-8739-444f-9eb6-fd1f202c574c")
-		(property "Reference" "R8"
-			(at 34.29 32.004 90)
+		(property "Reference" "R10"
+			(at 34.29 25.654 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12905,7 +13241,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 36.576 31.75 90)
+			(at 36.576 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12913,7 +13249,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 32.512 31.75 90)
+			(at 32.512 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12922,7 +13258,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 31.75 0)
+			(at 34.29 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12931,7 +13267,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 34.29 31.75 0)
+			(at 34.29 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12948,7 +13284,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -12963,7 +13299,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87e9d073-2d79-4af8-8064-1f42dd0e3c1f")
-		(property "Reference" "R11"
+		(property "Reference" "R14"
 			(at 46.736 43.18 90)
 			(effects
 				(font
@@ -13015,7 +13351,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R11")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -13174,6 +13510,72 @@
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
 					(reference "D67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 81.28 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ec66e6c-0e80-4904-8153-d6cd48ac3290")
+		(property "Reference" "#PWR030"
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 81.28 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 81.28 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed3436f3-8003-4cda-af5e-b2eb34ea2650")
+		)
+		(instances
+			(project "RP2040-led_matrix"
+				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -13417,72 +13819,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 55.88 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92c3d1f1-c872-4781-bf91-d503a1a62715")
-		(property "Reference" "#PWR029"
-			(at 55.88 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 55.88 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 55.88 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9af13e26-33b1-4d81-bb91-9027bf81526c")
-		)
-		(instances
-			(project "RP2040-led_matrix"
-				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:BSS84")
 		(at 109.22 49.53 180)
 		(unit 1)
@@ -13566,7 +13902,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95d88ee6-c904-418a-93df-9007ef0d5257")
-		(property "Reference" "R17"
+		(property "Reference" "R20"
 			(at 72.136 43.18 90)
 			(effects
 				(font
@@ -13618,7 +13954,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R17")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -13705,15 +14041,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 72.39 31.75 0)
+		(at 72.39 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9a9ef29c-2d52-4cac-b4de-c556da23fc96")
-		(property "Reference" "R16"
-			(at 72.39 32.004 90)
+		(property "Reference" "R19"
+			(at 72.39 25.654 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13721,7 +14057,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 74.676 31.75 90)
+			(at 74.676 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13729,7 +14065,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 70.612 31.75 90)
+			(at 70.612 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13738,7 +14074,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 31.75 0)
+			(at 72.39 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13747,7 +14083,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 72.39 31.75 0)
+			(at 72.39 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13764,7 +14100,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R16")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -13772,15 +14108,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 31.75 0)
+		(at 85.09 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9d3cf6a9-5e37-4abb-9a8e-b124b6e9696f")
-		(property "Reference" "R18"
-			(at 85.09 32.004 90)
+		(property "Reference" "R22"
+			(at 85.09 25.654 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13788,7 +14124,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 87.376 31.75 90)
+			(at 87.376 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13796,7 +14132,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 83.312 31.75 90)
+			(at 83.312 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13805,7 +14141,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 31.75 0)
+			(at 85.09 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13814,7 +14150,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 85.09 31.75 0)
+			(at 85.09 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13831,7 +14167,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R18")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -14083,7 +14419,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5c71b9e-bfa0-41e6-82f1-929c72c6b405")
-		(property "Reference" "R39"
+		(property "Reference" "R43"
 			(at 152.4 154.686 90)
 			(effects
 				(font
@@ -14135,7 +14471,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R39")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -14143,15 +14479,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 46.99 31.75 0)
+		(at 46.99 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a7207e02-d5a3-45d3-8cc3-2a2984c7bcbe")
-		(property "Reference" "R10"
-			(at 46.99 32.004 90)
+		(property "Reference" "R13"
+			(at 46.99 25.654 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14159,7 +14495,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 49.276 31.75 90)
+			(at 49.276 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14167,7 +14503,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 45.212 31.75 90)
+			(at 45.212 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14176,7 +14512,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 31.75 0)
+			(at 46.99 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14185,7 +14521,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 46.99 31.75 0)
+			(at 46.99 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14202,7 +14538,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R10")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -14217,7 +14553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a91e6b9d-c61e-47aa-92c2-b4bcefb71b60")
-		(property "Reference" "R44"
+		(property "Reference" "R54"
 			(at 163.576 167.64 90)
 			(effects
 				(font
@@ -14269,7 +14605,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R44")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -14363,7 +14699,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa6bac4e-f9cd-4cae-b08a-8ba40b01b344")
-		(property "Reference" "R45"
+		(property "Reference" "R55"
 			(at 163.576 180.34 90)
 			(effects
 				(font
@@ -14415,7 +14751,73 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R45")
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 93.98 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac439022-ed31-4820-978f-127157866dcf")
+		(property "Reference" "#PWR031"
+			(at 93.98 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 93.98 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 93.98 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2980de95-05f9-4b03-9a52-fc60deb702a1")
+		)
+		(instances
+			(project "RP2040-led_matrix"
+				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -14577,6 +14979,73 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 132.08 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1cdf9ae-fd7f-4d0a-9f86-a7e7731e0bc1")
+		(property "Reference" "R33"
+			(at 132.08 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 134.366 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 130.302 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "11b69907-8d3c-4f64-86ea-8b73bf972637")
+		)
+		(pin "1"
+			(uuid "3eb1d55f-ae90-42ee-881c-5a6b789695e0")
+		)
+		(instances
+			(project "RP2040-led_matrix"
+				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 163.83 116.84 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14584,7 +15053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2425a03-0afb-4dd4-af88-20293d16cc77")
-		(property "Reference" "R36"
+		(property "Reference" "R50"
 			(at 163.576 116.84 90)
 			(effects
 				(font
@@ -14636,7 +15105,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R36")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -15113,6 +15582,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 17.78 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd133ee7-5f8d-44fb-bfac-cfd5b4db1bb0")
+		(property "Reference" "#PWR025"
+			(at 17.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 17.78 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 17.78 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bda5d81-f40e-4b09-9ab9-3591c1319164")
+		)
+		(instances
+			(project ""
+				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 153.67 100.33 90)
 		(unit 1)
@@ -15266,7 +15801,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2ff0ad7-af49-4aca-966d-d25c4b2ed120")
-		(property "Reference" "R41"
+		(property "Reference" "R53"
 			(at 163.576 154.94 90)
 			(effects
 				(font
@@ -15318,7 +15853,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R41")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -15483,17 +16018,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 81.28 41.91 0)
+		(lib_id "power:+3.3V")
+		(at 68.58 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c74df346-4808-4cd5-b66c-864920e03e7a")
-		(property "Reference" "#PWR031"
-			(at 81.28 45.72 0)
+		(uuid "c7984afe-2ab3-4be2-8a63-63a23a29e2b9")
+		(property "Reference" "#PWR029"
+			(at 68.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15501,8 +16036,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 81.28 36.83 0)
+		(property "Value" "+3.3V"
+			(at 68.58 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15510,7 +16045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 41.91 0)
+			(at 68.58 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15519,7 +16054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 41.91 0)
+			(at 68.58 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15527,8 +16062,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 81.28 41.91 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 68.58 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15537,12 +16072,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cbcb8bc3-dba3-4bee-914c-a248ec443e35")
+			(uuid "16e57537-44ad-4b17-b953-b438ba668783")
 		)
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "#PWR031")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -15622,6 +16157,73 @@
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
 					(reference "D94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 81.28 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7cdef68-3381-46e4-88c9-2c0d021c1bfa")
+		(property "Reference" "R21"
+			(at 81.28 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 83.566 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 79.502 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a00b3ba5-8f9b-4907-aacd-edd2c66f1336")
+		)
+		(pin "1"
+			(uuid "19b1d418-8041-4916-b56e-b201f232cfb7")
+		)
+		(instances
+			(project "RP2040-led_matrix"
+				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -16323,15 +16925,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 31.75 0)
+		(at 59.69 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "cf1b1eee-d89e-4345-92fc-f5396c1e295d")
-		(property "Reference" "R14"
-			(at 59.69 32.004 90)
+		(property "Reference" "R16"
+			(at 59.69 25.654 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16339,7 +16941,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 61.976 31.75 90)
+			(at 61.976 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16347,7 +16949,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 57.912 31.75 90)
+			(at 57.912 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16356,7 +16958,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 31.75 0)
+			(at 59.69 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16365,7 +16967,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 31.75 0)
+			(at 59.69 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16382,7 +16984,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -16634,7 +17236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d662c6df-c9c6-41de-b290-59b2901bf884")
-		(property "Reference" "R28"
+		(property "Reference" "R37"
 			(at 152.4 78.486 90)
 			(effects
 				(font
@@ -16686,7 +17288,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R28")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -16767,7 +17369,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7e88060-40ae-4922-a1f5-2ee7339b6a9c")
-		(property "Reference" "R40"
+		(property "Reference" "R52"
 			(at 163.576 142.24 90)
 			(effects
 				(font
@@ -16819,7 +17421,140 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R40")
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 106.68 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9e28d76-2976-42e0-b2d1-72d839709b03")
+		(property "Reference" "#PWR032"
+			(at 106.68 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 106.68 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fb95b71-71b3-4454-865e-41cecf2fe8b7")
+		)
+		(instances
+			(project "RP2040-led_matrix"
+				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 30.48 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9e30f04-f1c2-41d0-a616-ca8f2af25f20")
+		(property "Reference" "R9"
+			(at 30.48 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 32.766 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 28.702 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 30.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fe831f7a-c438-4e4f-9781-fdc430587380")
+		)
+		(pin "1"
+			(uuid "5cb4cf10-03d9-4881-b319-66f293529e52")
+		)
+		(instances
+			(project "RP2040-led_matrix"
+				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -16834,7 +17569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "daa192c2-9a95-4f3b-b82f-08e6d5200c9b")
-		(property "Reference" "R3"
+		(property "Reference" "R8"
 			(at 21.336 43.18 90)
 			(effects
 				(font
@@ -16886,7 +17621,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R3")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -16976,7 +17711,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db6ec2ee-383b-47e0-986f-329971842c7b")
-		(property "Reference" "R37"
+		(property "Reference" "R51"
 			(at 163.576 129.54 90)
 			(effects
 				(font
@@ -17028,7 +17763,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R37")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -17108,72 +17843,6 @@
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
 					(reference "D48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 68.58 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2637450-16ba-44dd-9a2a-c66c531ca4b1")
-		(property "Reference" "#PWR030"
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 68.58 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 68.58 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9dcdf00d-d4e9-49c6-bd11-3a9d96c22e08")
-		)
-		(instances
-			(project "RP2040-led_matrix"
-				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -17651,23 +18320,23 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 31.75 0)
+		(at 119.38 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e824ec35-3324-443d-9a03-5e170afa32db")
-		(property "Reference" "R24"
-			(at 123.19 32.004 90)
+		(uuid "e8086348-28e1-4ad9-b2b4-e851d2d77add")
+		(property "Reference" "R30"
+			(at 119.38 38.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 125.476 31.75 90)
+		(property "Value" "47"
+			(at 121.666 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17675,7 +18344,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 121.412 31.75 90)
+			(at 117.602 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17684,7 +18353,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 31.75 0)
+			(at 119.38 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17693,7 +18362,74 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 31.75 0)
+			(at 119.38 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "894b1a15-a778-4eff-9605-25a0f733c5e2")
+		)
+		(pin "1"
+			(uuid "b19490c0-af41-47b2-81b2-b8a510ddab0d")
+		)
+		(instances
+			(project "RP2040-led_matrix"
+				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 123.19 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e824ec35-3324-443d-9a03-5e170afa32db")
+		(property "Reference" "R31"
+			(at 123.19 25.654 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 125.476 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 121.412 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 123.19 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17710,7 +18446,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R24")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -18007,6 +18743,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 30.48 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec7ba2b5-c6ad-4cef-bcd8-11de9b1760a4")
+		(property "Reference" "#PWR026"
+			(at 30.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 30.48 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc42fd91-135f-4d51-8874-9f426089ea41")
+		)
+		(instances
+			(project "RP2040-led_matrix"
+				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:BSS84")
 		(at 58.42 49.53 180)
 		(unit 1)
@@ -18082,72 +18884,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 106.68 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef2a4493-be3d-4381-892c-22958b046649")
-		(property "Reference" "#PWR033"
-			(at 106.68 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 106.68 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 106.68 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3072ec1-cbd5-43bc-b9ae-8a48153cb46f")
-		)
-		(instances
-			(project "RP2040-led_matrix"
-				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 152.4 142.24 180)
 		(unit 1)
@@ -18156,7 +18892,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f006670b-2609-4449-b79d-4578f24397a1")
-		(property "Reference" "R38"
+		(property "Reference" "R42"
 			(at 152.4 141.986 90)
 			(effects
 				(font
@@ -18208,7 +18944,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R38")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -18381,7 +19117,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1e92e15-fdc6-44ca-97a1-24946c2bf31b")
-		(property "Reference" "R27"
+		(property "Reference" "R35"
 			(at 135.636 43.18 90)
 			(effects
 				(font
@@ -18433,7 +19169,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R27")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -18606,7 +19342,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f562c029-b11b-45ef-bcb1-d29e47ece46f")
-		(property "Reference" "R33"
+		(property "Reference" "R49"
 			(at 163.576 104.14 90)
 			(effects
 				(font
@@ -18658,7 +19394,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R33")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -19143,7 +19879,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb5a0b46-d966-4717-be12-c634fd2e3e2b")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 59.436 43.18 90)
 			(effects
 				(font
@@ -19195,7 +19931,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -19210,7 +19946,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc262339-62ff-43e7-af16-9553364e0ec6")
-		(property "Reference" "R23"
+		(property "Reference" "R29"
 			(at 110.236 43.18 90)
 			(effects
 				(font
@@ -19262,7 +19998,7 @@
 		(instances
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "R23")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -19329,72 +20065,6 @@
 			(project "RP2040-led_matrix"
 				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 132.08 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd9400ea-9e12-410c-ab5d-264253e03ce4")
-		(property "Reference" "#PWR035"
-			(at 132.08 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 132.08 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 132.08 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a0848b9-0ac1-493e-ae5f-5c9d68af463d")
-		)
-		(instances
-			(project "RP2040-led_matrix"
-				(path "/6da693c1-71ad-457a-a876-e89e15304f60/0888f11a-653a-47d6-beb1-dc60ae471956"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
